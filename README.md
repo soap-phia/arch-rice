@@ -9,3 +9,11 @@
 - rofi
 
 ricing on a chromebook was a wonderful idea
+
+# Use the rice (simple)
+```bash
+git clone https://github.com/soap-phia/arch-rice/
+cd arch-rice
+cp -r config/* ~/.config/
+cp -r local/* ~/.local/
+```
