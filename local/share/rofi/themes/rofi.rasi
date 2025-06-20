@@ -1,0 +1,90 @@
+* {
+    font: "Montserrat 12";
+    background-color: transparent;
+    text-color: #c6d0f5;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+
+    color1: #000000;
+    color2: #EBAAEE;
+    color3: #1E1E2E;
+    color4:  #CCCCCC80;
+}
+
+window {
+    background-color: @color1;
+    location: northwest;
+    anchor: northwest;
+    x-offset: 0;
+    y-offset: 50;
+    width: 640;
+    border: 2px solid @color2;
+    border-radius: 5;
+}
+
+inputbar {
+    font: "Montserrat 20";
+    padding: 12px;
+    spacing: 12px;
+    children: [ icon-search, entry ];
+}
+
+icon-search {
+    filename: "search";
+    size: 28px;
+    expand: false;
+}
+
+icon-search, entry, element-icon, element-text {
+    vertical-align: 0.5;
+}
+
+entry {
+    font: inherit;
+    placeholder: "Search";
+    placeholder-color: @color4;
+}
+
+message {
+    border: 2px 0 0;
+    border-color: @color1;
+    background-color: transparent;
+}
+
+textbox {
+    padding: 8px 24px;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    fixed-height: true;
+    border: 2px 0 0;
+    border-color: @color1;
+}
+
+element {
+    padding: 8px 16px;
+    spacing: 16px;
+    background-color: @color1;
+}
+
+element normal active,
+element alternate active {
+    text-color: @color2;
+}
+
+element selected normal,
+element selected active {
+    background-color: @color3;
+    text-color: white;
+}
+
+element-icon {
+    size: 1em;
+}
+
+element-text {
+    text-color: inherit;
+}
