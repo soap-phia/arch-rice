@@ -1,4 +1,4 @@
-# Sophia's Arch Rice
+# soap-phia's Arch Rice
 ![one.png](one.png)
 ![two.png](two.png)
 
