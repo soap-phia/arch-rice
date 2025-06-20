@@ -1,4 +1,4 @@
-# soap-phia's Arch Rice
+# soap-phia's Arch Rice | made for riceathon v2 (more specifically the blahaj)
 ![one.png](one.png)
 ![two.png](two.png)
 
